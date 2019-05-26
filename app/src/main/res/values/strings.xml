@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Comparador de combustivel</string>
+    <string name="tv_enter_the_value_of_the_fuel">Insira os valores do combustivel</string>
+    <string name="ethanol">Alcool</string>
+    <string name="edt_gasoline">Gasolina</string>
+    <string name="btn_compare">Comparar</string>
+</resources>
