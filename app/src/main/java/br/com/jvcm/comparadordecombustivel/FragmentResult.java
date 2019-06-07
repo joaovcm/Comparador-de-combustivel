@@ -54,7 +54,7 @@ public class FragmentResult extends Fragment {
 
         snackbar = Snackbar.make(getView(), "", Snackbar.LENGTH_LONG);
         Snackbar.SnackbarLayout layout = (Snackbar.SnackbarLayout) snackbar.getView();
-        layout.setBackgroundResource(android.R.color.holo_red_dark);
+        layout.setBackgroundResource(android.R.color.holo_green_dark);
         LayoutInflater inflater = LayoutInflater.from(getView().getContext());
         View view = inflater.inflate(R.layout.snackbar_custom_layout, null);
         ((TextView) view.findViewById(R.id.tv_message)).setText(message);

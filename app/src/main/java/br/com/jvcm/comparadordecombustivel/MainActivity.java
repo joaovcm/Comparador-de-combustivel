@@ -32,12 +32,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean getValue(View view){
-        double value =0;
+        float value =0;
         int multi = 100;
         try {
             if(view == btnCompare){
-                value = (Double.parseDouble(edtEthanol.getText().toString()) * multi ) /
-                        Double.parseDouble(edtGasoline.getText().toString());
+                value = (Float.parseFloat(edtEthanol.getText().toString()) * multi ) /
+                        Float.parseFloat(edtGasoline.getText().toString());
             }
            result = String.valueOf(value);
         }catch (Exception e){
