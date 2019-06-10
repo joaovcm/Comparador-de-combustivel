@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         return result;
     }
 
-    private boolean getValue(View view){
+    private float getValue(View view){
         float value =0;
         int multi = 100;
         try {
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Falha ao comparar valores", Toast.LENGTH_LONG).show();
         }
 
-        return getValue(view);
+        return value;
     }
 
     public void onClickComparar(View view){
