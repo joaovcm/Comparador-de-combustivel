@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private float getValue(View view){
-        float value =0;
+
+        float value =0 ;
         int multi = 100;
         try {
             if(view == btnCompare){
